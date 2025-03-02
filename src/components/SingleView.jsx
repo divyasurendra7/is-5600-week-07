@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import '../App.css';
 
 
+
 export default function SingleView({data}) {
   // get the id from the url using useParams
   const { id } = useParams();
